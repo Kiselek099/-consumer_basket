@@ -36,7 +36,7 @@ class DBHelper(context: Context, factory: CursorFactory?) :
         onCreate(db)
     }
 
-    fun addName(product: Product) {
+    fun addProduct(product: Product) {
         val db = this.writableDatabase
         val values = ContentValues()
         values.put(KEY_NAME, product.name)
@@ -72,7 +72,7 @@ class DBHelper(context: Context, factory: CursorFactory?) :
         cursor.close()
         return productList
     }
-    fun updatePerson(product: Product){
+    fun updateProduct(product: Product){
         val db=this.writableDatabase
         val contextValues= ContentValues()
         contextValues.put(KEY_NAME,product.name)

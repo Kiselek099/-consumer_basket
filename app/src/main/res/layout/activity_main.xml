@@ -42,19 +42,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Сохранить" />
-        <Button
-            android:id="@+id/updateBTN"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Обновить" />
-        <Button
-            android:id="@+id/delBTN"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Удалить" />
 
     </LinearLayout>
-
     <ListView
         android:id="@+id/productsLV"
         android:layout_width="match_parent"
